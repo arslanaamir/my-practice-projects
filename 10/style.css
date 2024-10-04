@@ -1,0 +1,219 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+#main{
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+#form-body{
+    width: 90%;
+    height: auto;
+    margin: 20px auto;
+    background: rgb(5,40,117);
+    background: linear-gradient(158deg, rgba(5,40,117,1) 43%, rgba(6,37,92,1) 52%, rgba(8,27,69,1) 70%);
+    padding: 30px;
+    border-radius: 20px;
+    color: white;
+}
+#heading{
+    text-align: center;
+    color: #0165ff;
+    font-size: 38px;
+}
+.group-div{
+    display: flex;
+    flex-wrap: wrap;
+}
+.form-div{
+    width: 45%;
+    height: auto;
+    padding: 15px 0px;
+    margin: 20px auto;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+}
+form label{
+    display: block;
+    font-size: 24px;
+    padding-left: 20px;
+}
+form input{
+    width: 400px;
+    font-size: 18px;
+    padding: 5px 10px;
+    margin-left: 50px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 10px;
+}
+form input:focus{
+    background-color: #0165ff;
+    color: #ffffff;
+}
+form select{
+    padding: 5px 10px;
+    margin-left: 50px;
+    margin-top: 5px;
+    background-color: #0165ff;
+    color: #ffffff;
+    border: none;
+    border-radius: 2px;
+}
+#stars{
+    display: inline-block;
+    background-color: rgb(5,40,117);
+    padding: 5px 20px;
+    margin-left: 50px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+ .checked {
+color: gold;       
+}
+#submit-div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#submit{
+    width: 110px;
+    font-size: large;
+    padding: 5px;
+    color: #0165ff;
+    background-color: #ffffff;
+    border: 3px solid #0165ff;
+    border-radius: 10px;
+    margin: 10px 0px;
+    align-self: center;
+}
+#submit:hover{
+    color: #ffffff;
+    background-color: #0165ff;
+    border: 3px solid #ffffff;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 767px){
+    #form-body{
+        margin: 10px auto;
+        padding: 20px;
+        border-radius: 10px;
+    }
+    #heading{
+        font-size: 32px;
+    }
+    .group-div{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .form-div{
+        width: 90%;
+        height: auto;
+    }
+    form label{
+        font-size: 18px;
+        padding-left: 14px;
+    }
+    form input{
+        width: 200px;
+        font-size: 12px;
+        padding: 3px 6px;
+        margin-left: 25px;
+        margin-top: 3px;
+        border-radius: 5px;
+    }
+    form select{
+        padding: 3px 6px;
+        margin-left: 25px;
+        margin-top: 3px;
+    }
+    #stars{
+        display: inline-block;
+        background-color: rgb(5,40,117);
+        padding: 3px 10px;
+        margin-left: 25px;
+        margin-top: 5px;
+        border-radius: 3px;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+    #form-body{
+        margin: 15px auto;
+        padding: 25px;
+        border-radius: 15px;
+
+    }
+    #heading{
+        font-size: 34px;
+    }
+    .group-div{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .form-div{
+        width: 90%;
+        height: auto;
+    }
+    form label{
+        font-size: 20px;
+        padding-left: 16px;
+    }
+    form input{
+        width: 350px;
+        font-size: 14px;
+        padding: 4px 8px;
+        margin-left: 35px;
+        margin-top: 4px;
+        border-radius: 7px;
+    }
+    form select{
+        padding: 4px 8px;
+        margin-left: 35px;
+        margin-top: 4px;
+    }
+    #stars{
+        padding: 4px 12px;
+        margin-left: 35px;
+        margin-top: 5px;
+        border-radius: 5px;
+    }
+
+}
+@media only screen and (min-width: 1024px) and (max-width: 1439px){
+    #form-body{
+        margin: 20px auto;
+        padding: 30px;
+        border-radius: 20px;
+    }
+    #heading{
+        font-size: 36px;
+    }
+    form input{
+        width: 300px;
+        font-size: 18px;
+        padding: 5px 10px;
+        margin-left: 50px;
+        margin-top: 5px;
+        border: none;
+        border-radius: 10px;
+    }
+
+}
+@media only screen and (min-width: 1440px){
+    #form-body{
+        margin: 20px auto;
+        padding: 30px;
+        border-radius: 20px;
+    }
+    #heading{
+        font-size: 38px;
+    }
+
+}

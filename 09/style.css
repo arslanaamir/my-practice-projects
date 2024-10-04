@@ -1,0 +1,117 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#main{
+    width: 100%;
+    min-height: 100vh;
+    background-color: white;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#contact-body{
+    width: 70%;
+    height: auto;
+    border-radius: 20px;
+    display: flex;
+    background-color: blue;
+    padding: 20px;
+    
+}
+/*Form*/
+#formArea{
+    width: 65%;
+    height: auto;
+}
+#contact-form{
+   padding: 20px;
+    background-color: rgba(255, 255, 255, 0.15);
+    border-radius: 20px;
+    display: inline-block;
+    color: white;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    font-size: 20px;
+    
+}
+form input{
+    background-color: transparent;
+    border: 2px solid white;
+    width: 300px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+
+input::placeholder {
+    opacity: 0;
+}
+.form-group {
+    --pad: 0.75rem;
+    --accent: #fff; /* Accent color for focused state */
+    position: relative;
+    margin-top: 30px;
+}
+input {
+    width: 60%;
+    padding: var(--pad);
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+label {
+    position: absolute;
+    left: var(--pad);
+    top: var(--pad);
+    transition: all 0.2s ease;
+    color: #aaa;
+    pointer-events: none;
+}
+input:focus + label,
+input:not(:placeholder-shown) + label {
+    transform: translateY(calc(-50% - var(--pad)*2)) scale(1.5);
+    color: var(--accent);
+}
+#submit-area{
+position: relative;
+left: 80px;
+margin: 10px;
+}
+#submit{
+   width: 110px;
+   font-size: large;
+   padding: 5px;
+   background-color: white;
+   color: #0165ff;
+   border: 3px solid #0165ff;
+   border-radius: 10px;
+   margin: 10px 0px;
+   align-self: center;
+}       
+#submit:hover{
+   color: #ffffff;
+   background-color: #0165ff;
+   border: 3px solid #ffffff;
+   cursor: pointer;
+}
+/*Logo Img*/
+#imgArea{
+  width: 35%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(173,216,230);
+  background: linear-gradient(158deg, rgba(173,216,230,1) 13%, rgba(176,224,230,1) 39%, rgba(135,206,250,1) 90%, rgba(135,206,250,1) 90%);
+  border-radius: 29% 71% 44% 56% / 49% 37% 63% 51% ;
+}
+#logo-img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    margin: 20px;
+    border: 5px dashed #0461ff;
+}

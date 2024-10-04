@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        #footer{
+            width: 100%;
+            height: 270px;
+            background: rgb(30,30,30);
+            background: linear-gradient(172deg, rgba(30,30,30,1) 20%, rgba(54,54,54,1) 51%, rgba(47,47,47,1) 74%);
+            color: white;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+             justify-content: space-between;
+        }
+        #footer-page-links{
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+        }
+        #footer-page-links a{
+            color: #dbc87d;
+            text-decoration: none;
+            margin-bottom: 5px;
+        }
+        #footer-page-links a:hover{
+            background-color: #dbc87d;
+            color: #1e1e1e;
+        }
+        .contact-section{
+            padding: 10px;
+        }
+
+        #map{
+            border: 4px solid #dbc87d;
+            margin-bottom: 0px;
+        }
+
+    </style>
+</head>
+<body>
+    <footer>
+        <div id="footer">
+            <div>
+                <h2>Pages:</h2>
+                <ul id="footer-page-links">
+                    <a href="#">Home</a>
+                    <a href="#">About-us</a>
+                    <a href="#">Collections</a>
+                    <a href="#">Products</a>
+                    <a href="#">Cart</a>
+                    <a href="#">Login/Signup</a>
+                </ul>
+            </div>
+            <div>
+                <h2>Contact Info:</h2>
+                <div class="contact-section"><i class="fa-solid fa-phone" style="color: #dbc87d;"></i>:0300-1234567</div>
+                <div class="contact-section">
+                    <i class="fa-solid fa-envelope" style="color: #dbc87d;"></i>:calmfashions@gmail.com
+                </div>
+            <div class="contact-section">Social Links: 
+                <a href="#"><i class="fa-brands fa-facebook" style="color: #dbc87d;"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram" style="color: #dbc87d;"></i></a>
+            </div>
+            <div class="contact-section">Address: <i class="fa-solid fa-location-dot" style="color: #dbc87d;"></i> Canal Road Faisalabad</div>
+            </div>
+            <div>
+                <h2>Location:</h2>
+                <div  id="map">
+                <iframe 
+    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13616.524744415854!2d73.131791!3d31.4380552!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39226858337edbcd%3A0x766d25fb548c930f!2sLyallpur%20Galleria!5e0!3m2!1sen!2s!4v1723481280772!5m2!1sen!2s" 
+    width="250px" 
+    height="200px" 
+    style="border:0;" 
+    allowfullscreen="" 
+    loading="lazy" 
+    referrerpolicy="no-referrer-when-downgrade">
+</iframe>
+</div>
+
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

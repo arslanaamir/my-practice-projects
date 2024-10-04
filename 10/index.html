@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main">
+        
+        <div id="form-body">
+            <h1 id="heading">Survey Form</h1>
+        <form id="form">
+            <div class="group-div">
+            <div class="form-div">
+                <label for="name">What is your name?</label>
+                <input type="text" placeholder="Enter your Name" id="name" required>
+            </div>
+            <div class="form-div">
+                <label for="age">What is your age?</label>
+                <input type="number" placeholder="Enter your Age" id="age">
+            </div>
+            </div>
+            <div class="group-div">
+            <div class="form-div">
+                <label for="gender">What is your gender?</label>
+                <select id="gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+            </div>
+            <div class="form-div">
+                <label for="company">What company do you work for?</label>
+                <input type="text" placeholder="Enter your Company Name" id="company" required>
+            </div>
+            </div>
+            <div class="group-div">
+            <div class="form-div">
+                <label for="info-company">What vertical/industry best describes your company?</label>
+                <input type="text" placeholder="Which Industry best describes your company" id="info-company" required>
+            </div>
+            <div class="form-div">
+                <label for="role">What best describes your role?</label>
+                <input type="text" placeholder="Your role" id="role" required>
+            </div>
+            </div>
+            <div class="group-div">
+            <div class="form-div">
+                <label for="department">In which department do you work?</label>
+                <input type="text" placeholder="Your department" id="department" required>
+            </div>
+            <div class="form-div">
+                <label for="rating">Please Rate Our Services</label>
+                <div id="stars">
+                    <span><i class="fa-regular fa-star" id="firstStar"></i></span>
+                    <span><i class="fa-regular fa-star" id="secondStar"></i></span>
+                    <span><i class="fa-regular fa-star" id="thirdStar"></i></span>
+                    <span><i class="fa-regular fa-star" id="fourthStar"></i></span>
+                    <span><i class="fa-regular fa-star" id="fifthStar"></i></span>
+                </div>
+            </div>
+            </div>
+            <div id="submit-div">
+                <input type="submit" value="Submit" id="submit">
+            </div>
+        </form>
+    </div>
+    </div>
+    
+</body>
+<script src="index.js"></script>
+</html>

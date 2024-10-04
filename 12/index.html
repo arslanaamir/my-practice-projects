@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main">
+        <form id="form">
+            <h1 id="heading">Feedback Form</h1>
+            <div class="form-divs">
+                <label for="name">Name:</label>
+                <input type="text" id="name" placeholder="Enter your Name">
+            </div>
+            <div class="form-divs">
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="Enter Email Address">
+            </div>
+            <div class="form-divs">
+                <label for="message">Comment:</label>
+                <textarea name="message" id="message" placeholder="Enter your message"></textarea>
+            </div>
+            <div class="form-divs">
+                <label for="rating">Rating:</label>
+                <div id="stars">
+                    <span><i class="fa-regular fa-star" id="firstStar"></i></span>
+                    <span><i class="fa-regular fa-star" id="secondStar"></i></span>
+                    <span><i class="fa-regular fa-star" id="thirdStar"></i></span>
+                    <span><i class="fa-regular fa-star" id="fourthStar"></i></span>
+                    <span><i class="fa-regular fa-star" id="fifthStar"></i></span>
+                </div>
+            </div>
+            <input type="submit" id="submit">
+        </form>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>

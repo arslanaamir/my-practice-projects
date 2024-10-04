@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title><link rel="stylesheet" href="./collections/style.css">
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        .main-heading{
+            text-align: center;
+            color: #dbc87d;
+        }
+        /*Section Collection Css*/
+        .section-coll{
+            width: 90%;
+            height: auto;
+            margin: 20px auto;
+            padding: 40px 0px;
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            border: 5px solid #1e1e1e;
+            border-radius: 10px;
+        }
+        .coll-card{
+         width: 200px;
+         height: 350px;
+         background: rgb(30,30,30);
+        background: linear-gradient(172deg, rgba(30,30,30,1) 20%, rgba(54,54,54,1) 51%, rgba(47,47,47,1) 74%);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: 4px solid #dbc87d;
+        border-radius: 5px;
+        }
+        .coll-card:hover{
+            width: 220px;
+            height: 390px;
+        }
+        .section-img{
+           width: 100%;
+           height: 70%;
+           display: flex;
+           align-items: center;
+           justify-content: center;
+        }
+        .section-text{
+            width: 100%;
+            height: 30%;
+            text-align: center;
+            padding: 10px;
+            color: white;
+        }
+        .coll-img{
+        height: 200px;
+        width: 150px;
+        }
+        .coll-btn{
+            height: 30px;
+            background-color: #1e1e1e;
+            padding: 4px;
+            border: 2px solid #dbc87d;
+        }
+        .coll-btn-a{
+            text-decoration: none;
+            color: #dbc87d;
+        }
+        .coll-btn-a:hover{
+            color: #1e1e1e;
+            background-color: white;
+        }
+        /*Section Products*/
+
+    </style>
+</head>
+<body>
+    <iframe src="header.html" style="width: 100%; height: 280px;" frameborder="0"></iframe>
+    <!--Section Collection-->
+    <h1 class="main-heading">Our Collection's</h1>
+    <div class="section-coll">
+        <div class="coll-card">
+            <div class="section-img">
+            <img src="./images/shirtcol-Photoroom.png" class="coll-img">
+        </div>
+        <div class="section-text">
+            <h2>Shirts Collection</h2>
+            <button class="coll-btn"><a href="./collections/shirt-col.html" class="coll-btn-a">View Collection</a></button>
+        </div>
+        </div>
+        <div class="coll-card">
+            <div class="section-img">
+            <img src="./images/balzer col-Photoroom.png" class="coll-img">
+        </div>
+        <div class="section-text">
+            <h2>Blazer's Collection</h2>
+            <button class="coll-btn"><a href="./collections/blazer-col.html" class="coll-btn-a">View Collection</a></button>
+        </div>
+        </div>
+        <div class="coll-card">
+            <div class="section-img">
+            <img src="./images/wedding-col-Photoroom.png" class="coll-img">
+        </div>
+        <div class="section-text">
+            <h2>Wedding Collection</h2>
+            <button class="coll-btn"><a href="./collections/wed-col.html" class="coll-btn-a">View Collection</a></button>
+        </div>
+        </div>
+        <div class="coll-card">
+            <div class="section-img">
+            <img src="./images/pants col-Photoroom.png" class="coll-img">
+        </div>
+        <div class="section-text">
+            <h2>Pant's Collection</h2>
+            <button class="coll-btn"><a href="./collections/pant-col.html" class="coll-btn-a" class="coll-btn">View Collection</a></button>
+        </div>
+        </div>
+        <div class="coll-card">
+            <div class="section-img">
+            <img src="./images/accessories col-Photoroom.png" class="coll-img">
+        </div>
+        <div class="section-text">
+            <h2>Men's Accessories</h2>
+            <button class="coll-btn"><a href="./collections/accessories-col.html" class="coll-btn-a">View Collection</a></button>
+        </div>
+        </div>
+    </div>
+    <!--Products Section-->
+    <h1 class="main-heading">Latest Products</h1>
+    <div class="section-coll">
+        <div class="pro-body">
+            <div class="pro-img-div">
+                <img src="../images/wed2.webp" class="pro-img">
+            </div>
+            <div class="pro-text">
+             <h2>White Suit</h2>
+             <h3>Price: 9249Rs</h3>
+                <button class="pro-btn"><a href="">Buy Now</a></button>
+            </div>
+        </div>
+        <div class="pro-body">
+            <div class="pro-img-div">
+                <img src="../images/belt2.webp" class="pro-img">
+            </div>
+            <div class="pro-text">
+            <h2>Pack of 2 Leather Belts</h2>
+            <h3>Price: 1799Rs</h3>
+                <button class="pro-btn"><a href="">Buy Now</a></button>
+            </div>
+        </div>
+        <div class="pro-body">
+            <div class="pro-img-div">
+                <img src="../images/blaz2.webp" class="pro-img">
+            </div>
+            <div class="pro-text">
+            <h2>Blue Cheque Blazer</h2>
+            <h3>Price: 3999Rs</h3>
+                <button class="pro-btn"><a href="">Buy Now</a></button>
+            </div>
+        </div>
+        <div class="pro-body">
+            <div class="pro-img-div">
+                <img src="../images/pant2.webp" class="pro-img">
+            </div>
+            <div class="pro-text">
+             <h2>Blue Jeans Pant</h2>
+             <h3>Price: 2199Rs</h3>
+                <button class="pro-btn"><a href="">Buy Now</a></button>
+            </div>
+        </div>
+        <div class="pro-body">
+            <div class="pro-img-div">
+                <img src="../images/wed3.jpg" class="pro-img">
+            </div>
+            <div class="pro-text">
+            <h2>Cream & Black suit</h2>
+            <h3>Price: 13499Rs</h3>
+                <button class="pro-btn"><a href="">Buy Now</a></button>
+            </div>
+        </div>
+        <div class="pro-body">
+            <div class="pro-img-div">
+                <img src="../images/shirt3.jpg" class="pro-img">
+            </div>
+            <div class="pro-text">
+             <h2>Golden Formal Shirt</h2>
+             <h3>Price: 1949Rs</h3>
+                <button class="pro-btn"><a href="">Buy Now</a></button>
+            </div>
+        </div>
+    </div>
+    <iframe src="footer.html" style="width: 100%; height: 270px;" frameborder="0"></iframe>
+
+    
+</body>
+</html>

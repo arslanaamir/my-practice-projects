@@ -1,0 +1,112 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/*index-block01*/
+#main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#main-h1{
+    text-align: center;
+}
+#blog-01{
+ height: 220px;
+ width: 450px;
+ position: relative;
+ top: 50px;
+ left: 25px;
+ background-image: url("blog01.jpg");
+ background-size: cover;
+ border-radius: 6px;
+ box-shadow: 10px 10px #b48271;
+}
+#blog-01-textarea{
+ height: 200px;
+ width: 150px;
+ position: absolute;
+ top: 10px;
+ left: 10px;
+ background-color: white;
+ color: black;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ text-align: center;
+ border-radius: 6px;
+}
+#blog01-heading{
+    color: #b48271;
+}
+#blog-01-btn{
+ background-color: #b48271;
+ height: 30px;
+ padding: 4px;
+ border: none;
+ margin: 6px;
+ border-radius: 4px;
+}
+#blog-01-btn-link{
+ text-decoration: none;
+ color: white;
+}
+#blog-01-btn:hover{
+    background-color: #7b7980;
+}
+/*blog01.html css*/
+#blog01-Body{
+    background: rgb(180,130,113);
+    background: linear-gradient(141deg, rgba(180,130,113,1) 17%, rgba(199,64,19,1) 49%, rgba(96,57,43,1) 98%);
+}
+#blog01-top-heading{
+    color: white;
+    text-align: center;
+    margin: 8px;
+    font-size: 36px;
+}
+.blog01-subheading{
+    font-size: 24px;
+    color: orange;
+}
+#blog-01-mainBody{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.blog-01-section{
+   width: 80%;
+   margin: 30px auto;
+   padding: 20px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border: 5px solid white;
+   border-radius: 10px;
+}
+.blog-01-sectionText{
+    width: 60%;
+    height: auto;
+ color: white;
+ font-size: 18px;
+ padding-left: 20px;
+}
+.blog-01-sectionImg{
+  width: 40%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.blog01-Image{
+  width: 300px;
+  height: auto;
+  border: 5px solid orange;
+  border-radius: 10px;
+}

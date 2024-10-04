@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#main{
+    width: 100vw;
+    min-height: 100vh;
+    background: rgb(135,206,250);
+    background: linear-gradient(158deg, rgba(135,206,250,1) 20%, rgba(21,113,196,1) 40%, rgba(19,127,226,1) 60%, rgba(17,85,179,1) 80%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#form{
+    width: 60%;
+    height: auto;
+    padding: 2rem;
+    border: 5px solid #fff;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+    background-image: url('ac-logo-removebg-preview.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+}
+#heading{
+    color: #fff;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 2rem;
+    text-decoration: underline;
+}
+.form-divs{
+    display: flex;
+    flex-direction: column;
+    margin: 16px;
+}
+form label{
+    color: #fff;
+    font-size: 1.25rem;
+    margin-bottom: 8px;
+}
+form input{
+    position: relative;
+    left: 2rem;
+    width: 60%;
+    border: 2px solid #0461fc;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.25);
+    padding: 10px;
+}
+#message{
+    height: 80px;
+    width: 70%;
+    position: relative;
+    left: 2rem;
+    border: 2px solid #0461fc;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.25);
+    padding: 10px;
+}
+#stars{
+    position: relative;
+    left: 2rem;
+}
+.checked{
+    color: #0461fc;
+}
+#submit{
+    width: auto;
+    padding: 10px 20px;
+    color: #4f9ce3;
+    background-color: #fff;
+    border: 3px solid transparent;
+    border-radius: 3px;
+    left: 50%;
+    transform: translate(-50%);
+}
+#submit:hover{
+    background-color: #4f9ce3;
+    color: #fff;
+    border: 3px solid #fff;
+}
